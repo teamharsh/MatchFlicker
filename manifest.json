@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "T20 World Cup Live Scores",
+  "version": "1.0",
+  "description": "Fetches and displays live scores for T20 World Cup matches.",
+  "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+          "128": "icons/logo-128.png"
+      }
+  },
+  "permissions": [
+      "https://api.cricapi.com/v1/cricScore"
+  ]
+}

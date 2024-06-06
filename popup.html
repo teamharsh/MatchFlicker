@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>T20 World Cup Live Scores</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-r from-green-400 to-blue-500 flex items-center justify-center m-5">
+    <div class="bg-white p-8 rounded-lg shadow-lg max-w-xl w-full">
+        <h1 class="text-3xl font-extrabold text-center text-gray-800 mb-8">T20 World Cup Live Scores</h1>
+        <div id="buttons" class="flex justify-center space-x-4 mb-8">
+            <button id="liveBtn" class="bg-red-500 text-white px-6 py-3 rounded-lg font-semibold shadow-md hover:bg-red-600 transition duration-300">Live Matches</button>
+            <button id="resultBtn" class="bg-green-500 text-white px-6 py-3 rounded-lg font-semibold shadow-md hover:bg-green-600 transition duration-300">Result Matches</button>
+            <button id="fixtureBtn" class="bg-blue-500 text-white px-6 py-3 rounded-lg font-semibold shadow-md hover:bg-blue-600 transition duration-300">Fixture Matches</button>
+        </div>
+        <div id="scores" class="p-6 bg-gray-100 rounded-lg shadow-inner">
+            <!-- Matches will be displayed here -->
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
